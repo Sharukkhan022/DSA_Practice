@@ -1,11 +1,12 @@
 # METHOD_1
-# array = [40,10,47,2324,12]
-# array2 = []
 
-# for i in range(len(array) - 1, -1 ,-1) :
-#     array2.append(array[i])
+array = [40,10,47,2324,12]
+array2 = []
 
-# print(array2)
+for i in range(len(array) - 1, -1 ,-1) :
+    array2.append(array[i])
+
+print(array2)
 
 # METHOD_2 :
 

@@ -8,11 +8,8 @@
 
 **Sharuk** — 3rd-year B.Tech CSE Student at **RGUKT IIIT Ongole**, Andhra Pradesh  
 🎯 Aspiring Data Analyst | Python | SQL | Pandas | EDA  
-<<<<<<< HEAD
+
 🔗 [LinkedIn](www.linkedin.com/in/sharuk-khan-pathan-05ba0340b)
-=======
-🔗 [LinkedIn](www.linkedin.com/in/sharuk-khan-pathan-05ba0340b) 
->>>>>>> a6a43561820100e67583ecd554166031f7140d03
 
 ---
 

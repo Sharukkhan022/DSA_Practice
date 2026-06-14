@@ -1,6 +1,6 @@
 array = [1,2,3,4,5]
 
-left = 0;
+left = 0
 
 if not array :
     print("Empty array !")

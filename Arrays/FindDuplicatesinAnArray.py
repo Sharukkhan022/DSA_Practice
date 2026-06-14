@@ -10,4 +10,3 @@ for num, frequency in count.items() :
     if frequency > 1 :
         print(num)
 
-    

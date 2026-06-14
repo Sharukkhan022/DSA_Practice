@@ -61,7 +61,7 @@ array = [2, 0, 1, 2, 0, 1, 1]
 
 # print("Sorted Array:", array)
 
-
+# Method_3
 # Dutch National Flag approach 
 
 low = 0 
