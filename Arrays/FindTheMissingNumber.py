@@ -1,18 +1,16 @@
-array = [1,2,4,3,5]
+array = [1, 2, 3, 5]
+n = len(array) + 1  # n-1 elements means n = length + 1
 
+if not array:
+    print('Empty array!')
+else:
+    actual_sum = 0
 
-if not array :
-    print("Empty array !")
+    for num in array:
+        actual_sum += num
+    expected_sum = (n * (n + 1)) // 2   # formula: 1+2+...+n
 
-sum = 0
-n = max(array)
-
-for num in range(len(array) + 1):
-    sum += num
-
-sum_of_n_natural_number = (n * (n + 1)) // 2
-
-if sum == sum_of_n_natural_number :
-    print("Nothing is missing ")
-else :
-    print(f"Missing number is {sum_of_n_natural_number - sum}")
+    if actual_sum == expected_sum:
+        print('Nothing is missing')
+    else:
+        print(f'Missing number is {expected_sum - actual_sum}')
