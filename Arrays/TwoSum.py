@@ -1,28 +1,28 @@
 # # Method_1 : bruth force
 array = [2, 7, 11, 15]
 
-# if not array :
-#     print("Empty array !")
-# else :
-#     target = 18
-#     total = 0
-#     found = False
+if not array :
+    print("Empty array !")
+else :
+    target = 18
+    total = 0
+    found = False
 
-#     for i in range(len(array)) :
-#         for j in range(i + 1,len(array)) :
+    for i in range(len(array)) :
+        for j in range(i + 1,len(array)) :
 
-#             total = array[i] + array[j]
+            total = array[i] + array[j]
 
-#             if total ==  target :
-#                 print(f"Traget is found at --> {[i,j]}")
-#                 found = True 
-#                 break
+            if total ==  target :
+                print(f"Traget is found at --> {[i,j]}")
+                found = True 
+                break
     
-#         if found :
-#             break
+        if found :
+            break
     
-#     if not found :
-#         print("Target is not found !")
+    if not found :
+        print("Target is not found !")
 
 # Method_2 : Optimal using Dictionary
 
